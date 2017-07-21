@@ -1,0 +1,16 @@
+<configuration>
+  <imports>
+    <imports>
+      <import>
+        <type>java.lang.Number</type>
+      </import>
+      <import>
+        <type>java.text.SimpleDateFormat</type>
+      </import>
+      <import>
+        <type>java.util.Date</type>
+      </import>
+    </imports>
+  </imports>
+  <version>1.0</version>
+</configuration>

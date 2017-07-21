@@ -1,0 +1,135 @@
+
+<form id="1739261780">
+<property name="name" value="tramitesDIUC.gestionProyectos-taskform.form"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<field position="0" name=":decorator_2" type="HTMLLabel" id="1381011371">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;div style=&quot;width:485px;height:20px;text-align:center; margin:0 auto;background:#070719;border:1px solid #f0f8ff;color:#ffffff&quot;&gt;&lt;strong&gt;GESTION DE TRAMITES DE PROYECTOS DE INVESTIGACION&lt;/strong&gt;&lt;/div&gt; quot;quot;dequot;,quot;&lt;div style=&quot;width:485px;height:20px;text-align:center; margin:0 auto;background:#070719;border:1px solid #f0f8ff;color:#ffffff&quot;&gt;&lt;strong&gt;GESTION DE TRAMITES DE PROYECTOS DE INVESTIGACION&lt;/strong&gt;&lt;/div&gt; quot;quot;enquot;,quot;&lt;div style=&quot;width:485px;height:20px;text-align:center; margin:0 auto;background:#070719;border:1px solid #f0f8ff;color:#ffffff&quot;&gt;&lt;strong&gt;GESTION DE TRAMITES DE PROYECTOS DE INVESTIGACION&lt;/strong&gt;&lt;/div&gt; quot;quot;esquot;,quot;&lt;div style=&quot;width:485px;height:20px;text-align:center; margin:0 auto;background:#070719;border:1px solid #f0f8ff;color:#ffffff&quot;&gt;&lt;strong&gt;GESTION DE TRAMITES DE PROYECTOS DE INVESTIGACION&lt;/strong&gt;&lt;/div&gt; quot;quot;frquot;,quot;&lt;div style=&quot;width:485px;height:20px;text-align:center; margin:0 auto;background:#070719;border:1px solid #f0f8ff;color:#ffffff&quot;&gt;&lt;strong&gt;GESTION DE TRAMITES DE PROYECTOS DE INVESTIGACION&lt;/strong&gt;&lt;/div&gt; quot;quot;jaquot;,quot;&lt;div style=&quot;width:485px;height:20px;text-align:center; margin:0 auto;background:#070719;border:1px solid #f0f8ff;color:#ffffff&quot;&gt;&lt;strong&gt;GESTION DE TRAMITES DE PROYECTOS DE INVESTIGACION&lt;/strong&gt;&lt;/div&gt; quot;quot;ptquot;,quot;&lt;div style=&quot;width:485px;height:20px;text-align:center; margin:0 auto;background:#070719;border:1px solid #f0f8ff;color:#ffffff&quot;&gt;&lt;strong&gt;GESTION DE TRAMITES DE PROYECTOS DE INVESTIGACION&lt;/strong&gt;&lt;/div&gt; quot;quot;zhquot;,quot;&lt;div style=&quot;width:485px;height:20px;text-align:center; margin:0 auto;background:#070719;border:1px solid #f0f8ff;color:#ffffff&quot;&gt;&lt;strong&gt;GESTION DE TRAMITES DE PROYECTOS DE INVESTIGACION&lt;/strong&gt;&lt;/div&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="tramite_fecha_solicitud" type="InputShortDate" id="1181095059">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSStyle" value="font-weight: bold;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;fecha_solicitud (tramite)quot;quot;esquot;,quot;Fecha de Solicitudquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="defaultValueFormula" value="= new java.util.Date();"/>
+<property name="outputBinding" value="tramite/fecha_solicitud"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="2" name="tramite_solicitante" type="InputText" id="364920554">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSStyle" value="font-weight: bold;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;solicitante (tramite)quot;quot;esquot;,quot;Solicitante (Director del Proyecto)quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="50"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="tramite/solicitante"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="tramite_telefono_contacto" type="InputText" id="31112178">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSStyle" value="font-weight: bold;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;telefono_contacto (tramite)quot;quot;esquot;,quot;Celular de contactoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="tramite/telefono_contacto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="tramite_titulo_proyecto" type="InputText" id="2146871675">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSStyle" value="font-weight: bold;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;titulo_proyecto (tramite)quot;quot;esquot;,quot;Titulo del Proyectoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="83"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="tramite/titulo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="tramite_convocatoria" type="InputText" id="1825344461">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSStyle" value="font-weight: bold;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;convocatoria (tramite)quot;quot;esquot;,quot;Convocatoria / Fondos Externos / Proyecto de Facultadquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="83"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="tramite/convocatoria"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="tramite_codigo_proyecto" type="InputText" id="1926150790">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSStyle" value="font-weight: bold;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;codigo_proyecto (tramite)quot;quot;esquot;,quot;Código del proyectoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="83"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="tramite/codigo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name=":decorator_1" type="Separator" id="1123098864">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="8" name="tipo_tramite" type="InputText" id="1493334850">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSStyle" value="font-weight: bold;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;font-weight: bold;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;tipo_tramite (tipo_tramite)quot;quot;esquot;,quot;Seleccione el tipo de trámite a realizarquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="rangeFormula" value="{,-;1,Actualización de los miembros del proyecto;2,Incorporación de nuevo miembro al equipo de trabajo;3,Solicitud de prorroga;4,Reformulacion del presupuesto;5,Presentacion de informe de avance semestral;6,Presentacion de informe final}"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="tipo_tramite"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name=":decorator_0" type="HTMLLabel" id="801307076">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="aprobado" value="java.lang.Boolean" id="aprobado"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="archivos_fisicos" value="java.lang.Boolean" id="archivos_fisicos"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="historial" value="ucuenca.tramitesdiuc.historial_proyecto" id="historial"/>
+<dataHolder inputId="" name="#000000" type="dataModelerEntry" outId="informe_avance" value="ucuenca.tramitesdiuc.informe_avance" id="informe_avance"/>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="informe_final" value="ucuenca.tramitesdiuc.informe_final" id="informe_final"/>
+<dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="miembro" value="ucuenca.tramitesdiuc.miembro" id="miembro"/>
+<dataHolder inputId="" name="#FBB767" type="dataModelerEntry" outId="miembros" value="ucuenca.tramitesdiuc.miembros" id="miembros"/>
+<dataHolder inputId="" name="#FF8881" type="dataModelerEntry" outId="presupuesto" value="ucuenca.tramitesdiuc.presupuesto" id="presupuesto"/>
+<dataHolder inputId="" name="#A7E690" type="dataModelerEntry" outId="prorroga" value="ucuenca.tramitesdiuc.prorroga" id="prorroga"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="reforulacion_presupuesto" value="java.lang.Boolean" id="reforulacion_presupuesto"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="solicitud_correcta" value="java.lang.Boolean" id="solicitud_correcta"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="tipo_tramite" value="java.lang.String" id="tipo_tramite"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="tramite" value="ucuenca.tramitesdiuc.tramite" id="tramite"/>
+</form>
